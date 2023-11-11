@@ -1,0 +1,138 @@
+/* global style */
+body {
+    font-family: "segoe ui light";
+    box-sizing: border-box;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+/* home */
+#home{
+    background-image: url('images/shutterstock_277750193.jpg');
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    overflow: auto;
+}
+.home-content{
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+}
+.home-content p {
+    margin: 20px 0;
+    font-size: 22px;
+}
+.btn{
+    padding: 10px 15px;
+    border: 0;
+}
+.home-content .learn-btn{
+    background-color: #c1ab84;
+}
+.home-content .book-btn{
+    background-color: white;
+}
+/* navbar */
+.container{
+    width: 90%;
+    margin: auto;
+}
+.navbar{
+    background-color: black;
+    overflow: auto;
+}
+.navbar-logo{
+    width: 10%;
+    float: left;
+}
+.navbar-logo img{
+    width: 100%;
+}
+.navbar-list{
+    width: 80%;
+    float: right;
+    padding:20px 0 ;
+}
+.navbar-list ul {
+    list-style-type: none;
+    float: right;
+}
+.navbar-list ul li {
+    display: inline;
+    padding-left:30px ;
+}
+.navbar-list ul li a{
+    color: white;
+}
+/* chef */
+#chef {
+    overflow: auto;
+}
+
+.chef-img {
+    width: 40%;
+    float: left;
+
+}
+
+.chef-img img {
+    width: 100%;
+}
+
+.chef-caption {
+    width: 60%;
+    float: left;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.chef-caption button {
+    background-color: transparent;
+    padding: 15px 20px;
+}
+
+.chef-caption p {
+    line-height: 30px;
+    padding: 30px;
+}
+
+/* layer */
+#layer {
+    background-image: url('images/bg.jpg');
+    height: 400px;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+/* menu */
+#menu {
+    overflow: auto;
+    margin-top: 50px;
+}
+
+.meal {
+    width: 25%;
+    text-align: center;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.meal img {
+    border-radius: 50%;
+}
+
+.brdr {
+    width: 50px;
+    height: 2px;
+    background-color: red;
+    margin: 10px auto;
+}
